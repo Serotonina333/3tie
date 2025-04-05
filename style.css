@@ -1,0 +1,85 @@
+*{
+    text-align: center;
+
+}
+header,main,#blok1{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+header{
+    width: 1500px;
+    height: 165px;
+    background-color: hsl(70, 70%, 70%);
+}
+main{
+    width: 1500px;
+    height: 450px;
+    background-color: bisque;
+    padding: 10px;
+}
+#blok1,#blok21,#blok22,#blok31,#blok32{
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#blok1{
+    background-color: aqua;
+    width: 1520px;
+    text-align: center;
+}
+#blok21{
+    background-color: cadetblue;
+    text-align: right;
+    width: 500px;
+    padding-right: 5px;
+    margin-left: 150px;
+}
+#blok22{
+    background-color: coral;
+    width: 1010px;
+    padding-left: 5px;
+    margin-right: 150px;
+}
+#blok31{
+    background-color: darkgray;
+    width: 800px;
+    padding-right: 5px;
+    margin-left: 150px;
+    text-align: right;
+}
+#blok32{
+    background-color: gainsboro;
+    width: 710px;
+    padding-left: 5px;
+    margin-right: 150px;   
+}
+table,th,td{
+    border: 3px solid darkgreen;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+table{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.th1{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    padding-left: 25px;
+}
+th{
+    background-color: chartreuse;
+    font-size: 110%;
+}
+th:hover{
+    background-color: cadetblue;
+}
+td:hover{
+    background-color: aquamarine;
+}
+td{
+    background-color: antiquewhite;
+}
