@@ -3,124 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Podział strony na bloki - wewnętrzne blok</title>
-    <link rel="stylesheet" href="style.css">
+    <title>sprawdzian_Marcin_Olczak_10.04.2025</title>
+    <style>
+        table,th,td{
+            border: 1px solid;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="1.jpg" alt="budynek1">
-        <img src="2.jpg" alt="budynek2">
-        <img src="3.jpg" alt="budynek3">
+        <h1>To jest mój sprawdzian</h1>
+        <img src="glupi glupi kot.jpg" alt="">
     </header>
     <main>
-        <table>
-            <thead>
+        <h2>Moje zadania</h2>
+        <p>To bardzo <u>ważny</u> związek chemiczny, <b>bez niego nie ma życia!</b>Jego wzór to H2O</p>
+        <ol>
+            <li>Mieszko I</li>
+            <li>Władysław Łokietek</li>
+            <li>Stanisław August</li>
+        </ol>
+        <section id="tabelka">
+            <table>
+                <thead>
                 <tr>
-                    <th rowspan="2">Nr</th>
-                    <th rowspan="2">Uczeń</th>
-                    <th colspan="10">Przedmioty</th>
+                    <th>Data</th>
+                    <th>Osoba</th>
+                    <th>Sprzedaż rano</th>
+                    <th>Sprzedaż południu</th>
                 </tr>
-                <tr>
-                    <th class="th1">polski</th>
-                    <th class="th1">angl</th>
-                    <th class="th1">niemiecji</th>
-                    <th class="th1">matematyka</th>
-                    <th class="th1">bilogoia</th>
-                    <th class="th1">historia</th>
-                    <th class="th1">chemia</th>
-                    <th class="th1">fizyka</th>
-                    <th class="th1">geografia</th>
-                    <th class="th1">WF</th>
-                </tr>
+                </thead>
                 <tbody>
                     <tr>
-                        <th>1</th>
-                        <th>Przemyslaw Gembalczyk</th>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
+                        <td>1.12.2022</td>
+                        <td>Tomasz Nowak</td>
+                        <td colspan="2">1200</td>
                     </tr>
                     <tr>
-                        <th>2</th>
-                        <th>Jan Kowalski</th>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
+                        <td rowspan="2">2.12.2022</td>
+                        <td>Piotr Polak</td>
+                        <td>340</td>
+                        <td>430</td>
                     </tr>
                     <tr>
-                        <th>3</th>
-                        <th>Tomasz Nowak</th>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
+                        <td>Jan Kot</td>
+                        <td>230</td>
+                        <td>260</td>
                     </tr>
                     <tr>
-                        <th>4</th>
-                        <th>Piotr Świderski</th>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <th>5</th>
-                        <th>Anna Duda</th>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
-                        <td>5</td>
+                        <td>3.12.2022</td>
+                        <td>Rafał Foka</td>
+                        <td colspan="2">760</td>
                     </tr>
                 </tbody>
-            </thead>
-        </table>
+            </table>
+        </section>
+        <section class="definicja">
+           śpiulkolot - dosłownie 'samolot do spania', 'boarding do snu', czyli udanie się na odpoczynek. Używane często w odniesieniu do zwierząt, gdy ucinają sobie drzemkę – wtedy mówimy, że 'boardingują do śpiulkolotu', czyli szykują się do snu.
+        </section>
+        <section id="dane" class="definicja">
+            <a href="https://teb.pl/" target="teb">TEB</a>
+        </section>
+        <img src="glup 2kot.jpg" title="to jest zdjęcie">
+        <form>
+            <label for="imie">imię:</label>
+            <input type="text" id="imie" name="imie"></input><br>
+            <label for="nazwisko">nazwisko:</label>
+            <input type="text" id="nazwisko" name="nazwisko"></input><br>
+            <label for="wiek">wiek:</label>
+            <input type="number" id="wiek" name="wiek"></input><br>
+            <label for="submit">Wybierz profil:</label><br>
+            <label for="profil">informatyka</label>
+            <input type="radio" id="profil" name="profil" value="profil"><br>
+            <label for="profil">weterynaria</label>
+            <input type="radio" id="profil" name="profil" value="profil"><br>
+            <label for="submit">zatwierdź</label>
+            <input type="submit" id="submit" name="submit"></input>
+        </form>
     </main>
-    <section id="blok1">
-        <img src="4.jpg" alt="budynek4">
-    </section>
-    <section id="blok21">
-        <img src="5.jpg" alt="budynek5">
-    </section>
-    <section id="blok22">
-        <img src="6.jpg" alt="budynek6">
-    </section>
-    <section id="blok31">
-        <img src="7.jpg" alt="budynek7">
-    </section>
-    <section id="blok32">
-        <img src="8.jpg" alt="budynek8">
-    </section>
+    <footer>
+        <p>stronę wykonał Marcin</p>
+    </footer>
 </body>
 </html>
